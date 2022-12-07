@@ -1,0 +1,17 @@
+{
+    "name": "user/api.local",
+    "autoload": {
+        "files": [
+            "bootstrap.php",
+            "configs/app_config.php",
+            "configs/db_config.php"
+        ],
+        "psr-4": {
+            "Api\\": "api/",
+            "Front\\": "front/"
+        }
+    },
+    "require": {
+      "ext-json": "*"
+    }
+}
