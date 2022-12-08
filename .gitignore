@@ -1,1 +1,5 @@
 /vendor
+*.iml
+/.idea
+*.log
+/api/storage/uploads/

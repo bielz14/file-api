@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 
+//? session do not used api and front
 session_start();
 
 //execute botstrap
